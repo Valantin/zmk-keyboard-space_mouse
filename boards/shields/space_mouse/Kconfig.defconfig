@@ -1,0 +1,18 @@
+if SHIELD_SPACEMOUSE
+
+config ZMK_KEYBOARD_NAME
+    default "Space Mouse"
+
+config ZMK_POINTING
+    default y
+
+config I2C
+    default y
+
+config BT_MAX_CONN
+    default 1
+
+config BT_MAX_PAIRED
+    default 2
+
+endif

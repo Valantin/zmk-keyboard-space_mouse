@@ -1,0 +1,9 @@
+file_format: "1"
+id: space_mouse
+name: Space Mouse
+type: shield
+url: https://github.com/valantin/zmk-keyboard-space_mouse
+requires: [nice_nano, xiao_ble]
+features:
+  - keys
+  - pointer
