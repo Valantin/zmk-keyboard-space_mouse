@@ -1,0 +1,6 @@
+if SHIELD_SPACEMOUSE
+
+config ZMK_KEYBOARD_NAME
+    default "Space Mouse"
+
+endif
